@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "Property",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "location": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rooms": {
+      "type": "integer"
+    },
+    "bathrooms": {
+      "type": "integer"
+    },
+    "area": {
+      "type": "integer"
+    },
+    "availability": {
+      "type": "boolean"
+    },
+    "code": {
+      "type": "uid"
+    }
+  }
+}
