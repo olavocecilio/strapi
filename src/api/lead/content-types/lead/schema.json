@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leads",
+  "info": {
+    "singularName": "lead",
+    "pluralName": "leads",
+    "displayName": "Lead"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "location_interesty": {
+      "type": "string"
+    },
+    "property_type": {
+      "type": "string"
+    },
+    "last_interaction": {
+      "type": "datetime"
+    },
+    "situation": {
+      "type": "enumeration",
+      "enum": [
+        "\"novo\"",
+        "\"quente\"",
+        "\"morno\"",
+        "\"frio\"",
+        "\"finalizado\""
+      ]
+    },
+    "max_value": {
+      "type": "string"
+    },
+    "min_size": {
+      "type": "string"
+    },
+    "rooms": {
+      "type": "string"
+    }
+  }
+}
