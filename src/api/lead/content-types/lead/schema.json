@@ -32,11 +32,11 @@
     "situation": {
       "type": "enumeration",
       "enum": [
-        "\"novo\"",
-        "\"quente\"",
-        "\"morno\"",
-        "\"frio\"",
-        "\"finalizado\""
+        "novo",
+        "quente",
+        "morno",
+        "frio",
+        "finalizado"
       ]
     },
     "max_value": {
