@@ -4,7 +4,8 @@
   "info": {
     "singularName": "lead",
     "pluralName": "leads",
-    "displayName": "Lead"
+    "displayName": "Lead",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -46,6 +47,11 @@
     },
     "rooms": {
       "type": "string"
+    },
+    "property_interesty": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::property.property"
     }
   }
 }
